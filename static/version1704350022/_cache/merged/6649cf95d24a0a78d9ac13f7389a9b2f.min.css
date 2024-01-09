@@ -5449,7 +5449,7 @@ body._has-modal-custom .modal-custom-overlay {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color: #000;
-    content: 'â€¢';
+    content: '•';
     font-size: 16px;
     height: 20px;
     left: 0;
@@ -28465,7 +28465,7 @@ body.notification-active {
     margin: 0
 }
 
-.filter-options .swatch-attribute .swatch-option-link-layered .swatch-option:not(.text)[data-option-label="TRáº®NG"],
+.filter-options .swatch-attribute .swatch-option-link-layered .swatch-option:not(.text)[data-option-label="TRẮNG"],
 .filter-options .swatch-attribute .swatch-option-link-layered .swatch-option:not(.text)[data-option-tooltip-value=fff],
 .filter-options .swatch-attribute .swatch-option-link-layered .swatch-option:not(.text)[data-option-tooltip-value=ffffff] {
     border: 1px solid #000
@@ -38959,7 +38959,7 @@ body.cart-active {
 }
 
 .products-grid.wishlist .product-item .swatch-attribute.color .swatch-attribute-label:before {
-    content: "MÃ u sáº¯c";
+    content: "Màu sắc";
     font-size: 15px;
     vertical-align: middle
 }
@@ -46032,7 +46032,7 @@ screen and (max-height:300px) {
     width: 20px;
     height: 20px;
     line-height: 14px;
-    content: 'â€¢';
+    content: '•';
     text-align: center;
     opacity: .25;
     color: #65affa;
