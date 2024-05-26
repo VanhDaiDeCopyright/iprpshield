@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* ---- brand operation ---- */
+
+.soldes_op_ {
+    display:  !important;
+}
+
+.styling_op_ {
+    display:  !important;
+}
+
+.bestseller_op_ {
+    display:  !important;
+}
+
+.lodeur_op_ {
+    display: important;
+}
+
+.nystore_op_ {
+    display:  !important;
+}
+
+/* ---- Soldes Category ---- */
+
+.soldes_ys_ {
+    display:  !important;
+}
+
+.soldes_limi_ {
+    display:  !important;
+}
+
+.soldes_femme_ {
+    display:  !important;
+}
+
+.soldes_homme_ {
+    display:  !important;
+}
+
+.soldes_byy_ {
+    display:  !important;
+}
+
+.soldes_noir_ {
+    display:  !important;
+}
+
+.soldes_bscandal_ {
+    display:  !important;
+}
+
+.soldes_ypink_ {
+    display:  !important;
+}
+
+/*----Soldes----*/
+
+#soldes_container {
+    background-color: #f7f3ea;
+    height: 415px;
+}
+
+.soldes_slides {
+    padding: 20px 0 55px;
+}
+
+.soldes_slides:not(.slick-initialized) {
+    display: flex;
+    justify-content: center;
+}
+
+.soldes_slides_item {
+    margin: 0 10px;
+}
+
+.soldes_slides_item a {
+    display: block;
+}
+
+.soldes_slides_item a img {
+    width: 340px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+
+.soldes_slides .slick-dots {
+    bottom: 18px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.soldes_slides .slick-dots li {
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: 0 6px;
+}
+
+.soldes_slides .slick-dots li button {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    border: 4px solid #f7f3ea;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.soldes_slides .slick-dots li button:before {
+    content: none;
+}
+
+.soldes_slides .slick-dots li.slick-active button {
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.soldes_slides .slick-prev,
+.soldes_slides .slick-next {
+    top: auto;
+    bottom: 20px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.soldes_slides .slick-prev:after,
+.soldes_slides .slick-next:after {
+    content: none;
+}
+
+.soldes_slides .slick-prev {
+    left: calc(50% - 140px);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.soldes_slides .slick-next {
+    right: calc(50% - 140px);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+@media only screen and (max-width: 919px) {
+    #soldes_container {
+        height: calc((320 / 375) * 100vw);
+    }
+    .soldes_slides {
+        padding: 4vw 0 10.667vw;
+    }
+    .soldes_slides_item {
+        margin: 0 2vw;
+    }
+    .soldes_slides_item a img {
+        width: 70.667vw;
+    }
+    .soldes_slides .slick-arrow {
+        display: none !important;
+    }
+    .soldes_slides .slick-dots {
+        bottom: 3.2vw;
+    }
+    .soldes_slides .slick-dots li {
+        width: 3.733vw;
+        height: 3.733vw;
+        margin: 0 1.6vw;
+    }
+    .soldes_slides .slick-dots li button {
+        width: 3.733vw;
+        height: 3.733vw;
+        border-width: 1.067vw;
+    }
+    .soldes_slides .slick-dots li.slick-active button {
+        border-width: .267vw;
+    }
+    .soldes_slides .slick-prev,
+    .soldes_slides .slick-next {
+        display: none;
+    }
+}
+
+/*----Vintage----*/
+
+/*----Vintage----*/
+
+#vintage_container {
+    height: 660px;
+}
+
+.vintage_brand_container {
+    padding: 60px 0;
+    background: url(https://stg.theshopyohjiyamamoto.jp/img/brand/vintage/2021ss_3/bg.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.vintage_brand_container h3 {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.vintage_brand_container h3 img {
+    width: 175px;
+    height: auto;
+}
+
+.vintage_brand_container .logo_navi ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 780px;
+    margin: 0 auto;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.vintage_brand_container .logo_navi ul li {
+    overflow: hidden;
+    width: 240px;
+    margin: 0 30px 30px 0;
+}
+
+.vintage_brand_container .logo_navi ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.vintage_brand_container .logo_navi ul li a {
+    display: block;
+}
+
+.vintage_brand_container .logo_navi ul li a img {
+    width: 100%;
+    aspect-ratio: 61 / 31;
+    height: auto;
+}
+
+.vintage_brand_container .limited_banner {
+    overflow: hidden;
+    width: 780px;
+    margin: 52px auto 67px;
+}
+
+.vintage_brand_container .limited_banner img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 919px) {
+    #vintage_container {
+        min-height: 587px;
+    }
+    .vintage_brand_container {
+        padding: 13.333vw 6.667vw;
+    }
+    .vintage_brand_container h3 {
+        margin-bottom: 6.667vw;
+    }
+    .vintage_brand_container h3 img {
+        width: 26.667vw;
+    }
+    .vintage_brand_container .logo_navi ul {
+        width: 100%;
+    }
+    .vintage_brand_container .logo_navi ul li {
+        width: 40vw;
+        margin: 0 5.333vw 5.333vw 0;
+    }
+    .vintage_brand_container .logo_navi ul li:nth-child(3n) {
+        margin-right: 5.333vw;
+    }
+    .vintage_brand_container .logo_navi ul li:nth-child(2n) {
+        margin-right: 0;
+    }
+    .vintage_brand_container .limited_banner {
+        width: 100%;
+        margin: 27px auto 40px;
+    }
+}
+
+/*メガメニューブランド名*/
+
+.brand_name_ {
+    display: none;
+}
